@@ -5,10 +5,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow
 
-from keras.models import Sequential
-from keras.layers import Dense,Activation,Dropout,LeakyReLU
-from keras.callbacks import EarlyStopping
-from keras import metrics
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense,Activation,Dropout,LeakyReLU
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras import metrics
 
 from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error,median_absolute_error,max_error
 from sklearn.preprocessing import MinMaxScaler, StandardScaler,RobustScaler
